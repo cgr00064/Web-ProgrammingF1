@@ -1,0 +1,539 @@
+body {
+    font-family: 'Verdana';
+    color #333;
+    font-weight: 300;
+    font-size: 16px;
+    background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
+    margin: 0;
+}
+
+p {
+  margin-bottom: 1.4em;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*------------- HEADER -------------*/
+.header {
+  padding: 20px;
+  background: black;
+  box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+  margin: 0;
+}
+
+.header .logo {
+  margin-bottom: px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+img.logo {
+  width: 100px;
+}
+
+.menu {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a {
+  padding: 10px;
+  color: red;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  transition: 0.2s ease all;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  background: red;
+  color: black;
+}
+
+/*------------- FOOTER -------------*/
+.footer {
+    background-color: rgb(68, 65, 65);
+    padding: 0.5rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/*--------- TEAMS.HTML ----------*/
+.container_teams {
+    width: 90%;
+    max-width: 75em;
+    margin: 1.25em auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+
+}
+
+.text_teams{
+    grid-column: 1 / 4;
+    grid-row: 1 /2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.mercedes{
+    grid-column: 1 /2;
+    grid-row: 2 / 3;
+}
+.redbull{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.ferrari{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.alpine{
+    grid-column: 1 /2;
+    grid-row: 3 / 4;
+}
+.mclaren{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.aston{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+.alpha{
+    grid-column: 1 /2;
+    grid-row: 4 / 5;
+}
+.williams{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.alfa{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}*/
+.hass{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+img.car {
+    width: 300px;
+}
+img.teams{
+    width: 300px;
+}
+
+/*--------- Drivers.HTML ----------*/
+.container_drivers {
+    width: 90%;
+    max-width: 75em;
+    margin: 1.25em auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+
+}
+.text_drivers{
+    grid-column: 1 / 5;
+    grid-row: 1 /2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.Hamilton{
+    grid-column: 1 / 2;
+    grid-row:  2 / 3 ;
+
+}
+.Bottas{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.Max{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.Checo{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+.Leclerc{
+    grid-row: 3 / 4;
+}
+.Sainz{
+    grid-row: 3 / 4;
+}
+.Norris{
+    grid-row: 3 / 4;
+}
+.Ricciardo{
+    grid-row: 3 / 4;
+}
+.Alonso{
+    grid-row: 4 / 5;
+}
+.Ocon{
+    grid-row: 4 / 5;
+}
+.Gasly{
+    grid-row: 4 / 5;
+}
+.Tsunoda{
+    grid-row: 4 / 5;
+}
+.Vettel{
+    grid-row: 5 / 6;
+}
+.Stroll{
+    grid-row: 5 / 6;
+}
+.Rusell{
+    grid-row: 5 / 6;
+}
+.Latifi{
+    grid-row: 5 / 6;
+}
+.Kimi{
+    grid-row: 6 / 7;
+}
+.Gio{
+    grid-row: 6 / 7;
+}
+.Mick{
+    grid-row: 6 / 7;
+}
+.Mazepin{
+    grid-row: 6 / 7;
+}*/
+
+img.drivers {
+    width: 250px;
+}
+/*---------- INDEX.HTML ----------*/
+.container_index {
+  width: 90%;
+  max-width: 75em;
+  margin: 1.25em auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+/*------------- MAIN -------------*/
+.main {
+  grid-column: 1 / 3;
+}
+
+.slider {
+  width: 100%;
+  min-width: 30%;
+  margin: auto;
+  overflow: hidden;
+  grid-column: 1 / 3;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: change 20s infinite alternate;
+  animation-timing-function: ease-in;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes change {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/*------------- SECTION VIDEO -------------*/
+.section_video {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.videogame {
+  width: 500px;
+  float: left;
+  min-width: 300px;
+}
+
+/*------------- TEXT VIDEO -------------*/
+.text_video {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*------------- STANDINGS -------------*/
+.standings {
+  /*grid-area: standings;*/
+  grid-column: 1/3;
+}
+
+.standing_drivers {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img.standing_drivers {
+  width: 400px;
+}
+
+.standing_teams {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img.standing_teams {
+  width: 400px;
+}
+
+/*------------- SENTENCES -------------*/
+.sentences {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+img.imgsentences {
+  width: 150px;
+  border-radius: 75px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+/*------------ RESPONSIVE -------------*/
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width:1200px) {
+  /*-------- Drivers.html ---------*/
+  .container_drivers {
+ 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, auto);
+
+  }
+  .text_drivers{
+    grid-column: 1 / 4;
+    grid-row: 1 /2;
+  }
+  .Mazepin{
+  grid-column: 3 / 4;
+  grid-row: 8 / 9;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  /*-------- Index.html ---------*/
+  .container_index {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+  .main {
+    grid-column: 1 / 2;
+  }
+  .section_video {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .text_video {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .standings {
+    /*grid-area: standings;*/
+    grid-column: 1/2;
+  }
+  .standing_drivers {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .standing_teams {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .sentences {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  /*-------- Teams.html ---------*/
+  .container_teams {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, auto);
+
+  }
+
+  .text_teams{
+      grid-column: 1 / 3;
+      grid-row: 1 /2;
+  }
+
+  /*-------- Drivers.html ---------*/
+  .container_drivers {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, auto);
+
+  }
+  .text_drivers{
+    grid-column: 1 / 3;
+    grid-row: 1 /2;
+  }
+  .Mazepin{
+    grid-column: 2 / 3;
+      grid-row: 11 / 12;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /*-------- Teams.html ---------???????????*/
+  .container_teams {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(14, auto);
+
+  }
+
+  .text_teams{
+      grid-column: 1 / 2;
+      grid-row: 1 /2;
+  }
+  .hass{
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+  }
+  /*-------- Drivers.html ---------*/
+  .container_drivers {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, auto);
+
+  }
+  .text_drivers{
+    grid-column: 1 / 3;
+    grid-row: 1 /2;
+  }
+  .Mazepin{
+    grid-column: 2 / 3;
+      grid-row: 11 / 12;
+  }
+
+/* Small devices (lamdscape phones, 576px and up) */
+@media (max-width: 576px) {
+  /*-------- Index.html ---------*/
+  h1.index{
+    font-size: 18px;
+  }
+  .slider{
+    width: 300px;
+  }
+  img.videogame{
+    width: 300px;
+  }
+  h2.text_video{
+    font-size: 10px;
+  }
+  img.standing_drivers{
+    width: 300px;
+  }
+  img.standing_teams{
+    width: 300px;
+  }
+  p.sentences1{
+    font-size: 10px;
+  }
+  /*-------- Teams.html ---------*/
+  .container_teams {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(14, auto);
+
+  }
+
+  .text_teams{
+      grid-column: 1 / 2;
+      grid-row: 1 /2;
+  }
+  .hass{
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+  }
+   /*-------- Drivers.html ---------*/
+   .container_drivers {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(23, auto);
+
+  }
+  .text_drivers{
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+  }
+  .Mazepin{
+    grid-column: 1 / 2;
+      grid-row: 22 / 23;
+  }
+}
+
+
